@@ -1,4 +1,4 @@
-package com.calculator.util;
+package org.calculator.util;
 
 public class DisplayHelper {
 }
