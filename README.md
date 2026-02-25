@@ -1,7 +1,6 @@
 # Java Console Calculator
 
-A console-based calculator built in Java as part of a structured SDLC learning project.
-
+A console-based calculator built in Java.
 ---
 
 ## Features
@@ -11,7 +10,7 @@ A console-based calculator built in Java as part of a structured SDLC learning p
 - Input validation with helpful error messages
 - Division by zero handled gracefully
 - Continuous session — calculate multiple times without restarting
-- Clean exit by typing `exit` or `q`
+- Clean exit by typing `exit`.
 
 ---
 
@@ -66,34 +65,6 @@ java -jar target/calculator-1.0.jar
 
 ---
 
-## Example Usage
-
-```
-=== Java Console Calculator ===
-Type 'exit' at any prompt to quit.
-
-Enter first number: 10
-Enter operator (+, -, *, /, %, ^, sqrt): /
-Enter second number: 4
-Result: 10.0 / 4.0 = 2.5
-
-Calculate again? (yes/no): yes
-
-Enter first number: 25
-Enter operator (+, -, *, /, %, ^, sqrt): sqrt
-Result: sqrt(25.0) = 5.0
-```
-
----
-
-## Run Tests
-
-```bash
-mvn test
-```
-
----
-
 ## Supported Operators
 
 | Operator | Symbol | Example         |
@@ -113,15 +84,6 @@ mvn test
 | Version | Date          | Notes          |
 |---------|---------------|----------------|
 | 1.0     | February 2026 | Initial release |
-
----
-
-## Author
-
-Your Name  
-[GitHub Profile](https://github.com/yourusername)
-
----
 
 ## License
 
